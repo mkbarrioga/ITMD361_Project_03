@@ -624,10 +624,80 @@ section>h3{
   box-shadow: -10px 10px 20px #000000;
 }
 
-@media screen and (min-width: 820px) {
+
+
+@media screen and (max-width: 1288px) {
+  #sec1{
+    font-size: 120%;
+    line-height: 3vh;
+  }
   
+  .sec2{
+    margin-top: 5vh;
+    padding: 1vh 3vh;
+    line-height: 2.5vh;
+    font-size: 110%;
+  }
+  
+  .description{
+    padding: 1.5vh;
+    font-size: 110%;
+  }
+
+  #s_t{
+    margin-top: 2.5vh;
+  }
+  
+  #s_t h2{
+    line-height: 2vh;
+  }
+  
+  #s_t p{
+    font-size: 110%;
+    line-height: 3vh;
+  }
+  
+  #sec3{
+    margin-top: 4vh;
+  }
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 430px) {
+  .media {
+    width: 95%;
+  }
+
+  #sec1{
+    font-size: 100%;
+    line-height: 2.5vh;
+  }
   
+  .sec2{
+    margin-top: 2vh;
+    padding: 1vh 2.5vh;
+    line-height: 3vh;
+    font-size: 110%;
+  }
+  
+  .description{
+    padding: 1vh;
+    font-size: 100%;
+  }
+
+  #s_t{
+    margin-top: 2vh;
+  }
+  
+  #s_t h2{
+    line-height: 3vh;
+  }
+  
+  #s_t p{
+    font-size: 100%;
+    line-height: 3vh;
+  }
+  
+  #sec3{
+    margin-top: 3vh;
+  }
 }
