@@ -624,7 +624,29 @@ section>h3{
   box-shadow: -10px 10px 20px #000000;
 }
 
+#mapPage{
+  width: 100vw;
+  height: 90vh;
+  display:block;
+  position: absolute;
+  top: 15%;
+}
 
+#map{
+  width: 50vw;
+  height: 70vh;
+  margin: 0 5vw;
+  position: relative;
+  float: left;
+}
+
+#mapContents{
+  width: 30vw;
+  height: 50vh;
+  margin: 0 5vw;
+  position: relative;
+  float: left;
+}
 
 @media screen and (max-width: 1288px) {
   #sec1{
@@ -663,6 +685,16 @@ section>h3{
 }
 
 @media screen and (max-width: 430px) {
+  #map{
+    width: 100vw;
+    padding: 0;
+    margin: 1%;
+  }
+
+  #mapContents{
+    width: 90vw;
+  }
+
   .media {
     width: 95%;
   }
