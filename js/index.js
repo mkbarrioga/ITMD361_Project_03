@@ -32,46 +32,46 @@ function initMap(){
     }
   }
   
-  addMarker({
-    coords:{lat:41.8314798,lng:-87.6283148},
-    iconImage:'images/customIcon.PNG',
-    content:'<p>Illinois Institute of Technology</p>',
-    animation: google.maps.Animation.BOUNCE
-    });
+  var markers = [
+    {
+      coords:{lat:41.8314798,lng:-87.6283148},
+      iconImage:'images/customIcon.PNG',
+      content:'<p>Illinois Institute of Technology</p>',
+      animation: google.maps.Animation.BOUNCE
+    },
+    {
+      coords:{lat:41.9876626,lng:-87.6545129},
+      iconImage:'images/beach.PNG',
+      content:'<p>Kathy Osterman Beach</p>'
+    },
+    {
+      coords:{lat:41.8663134,lng:-87.6070143},
+      iconImage:'images/museum.PNG',
+      content:'<p>Adler Planetarium</p>'
+    },
+    {
+      coords:{lat:41.9133549,lng:-87.6692455},
+      iconImage:'images/bike.PNG',
+      content:'<p>The 606 - East Trailhead</p>'
+    },
+    {
+      coords:{lat:41.9135389,lng:-87.71964},
+      iconImage:'images/bike.PNG',
+      content:'<p>The 606 - West Trailhead</p>'
+    },
+    {
+      coords:{lat:41.8479033,lng:-88.0394595},
+      iconImage:'images/food.PNG',
+      content:'<p>Blue Sushi Sake Grill</p>'
+    },
+    {
+      coords:{lat:42.185524,lng:-87.8007389},
+      iconImage:'images/food.PNG',
+      content:'<p>Sweet Home Gelato Highland Park</p>'
+    }
+  ];
 
-  addMarker({
-    coords:{lat:41.9876626,lng:-87.6545129},
-    iconImage:'images/beach.PNG',
-    content:'<p>Kathy Osterman Beach</p>'
-  });
-
-  addMarker({
-    coords:{lat:41.8663134,lng:-87.6070143},
-    iconImage:'images/museum.PNG',
-    content:'<p>Adler Planetarium</p>'
-  });
-
-  addMarker({
-    coords:{lat:41.9133549,lng:-87.6692455},
-    iconImage:'images/bike.PNG',
-    content:'<p>The 606 - East Trailhead</p>'
-  });
-
-  addMarker({
-    coords:{lat:41.9135389,lng:-87.71964},
-    iconImage:'images/bike.PNG',
-    content:'<p>The 606 - West Trailhead</p>'
-  });
-
-  addMarker({
-    coords:{lat:41.8479033,lng:-88.0394595},
-    iconImage:'images/food.PNG',
-    content:'<p>Blue Sushi Sake Grill</p>'
-  });
-
-  addMarker({
-    coords:{lat:42.185524,lng:-87.8007389},
-    iconImage:'images/food.PNG',
-    content:'<p>Sweet Home Gelato Highland Park</p>'
-  });
+  for(var i=0; i<markers.length; i++){
+    addMarker(markers[i]);
+  }
 }
