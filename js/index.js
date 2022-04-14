@@ -37,37 +37,44 @@ function initMap(){
       coords:{lat:41.8314798,lng:-87.6283148},
       iconImage:'images/customIcon.PNG',
       content:'<p>Illinois Institute of Technology</p>',
-      animation: google.maps.Animation.BOUNCE
+      animation: google.maps.Animation.BOUNCE,
+      message: 'This is where I currently attend for a degree on Information Technology and Management.'
     },
     {
       coords:{lat:41.9876626,lng:-87.6545129},
       iconImage:'images/beach.PNG',
-      content:'<p>Kathy Osterman Beach</p>'
+      content:'<p>Kathy Osterman Beach</p>',
+      message: 'It is also called Hollywood Beach by locals. I spend times here to take my dog for a walk, read, or mostly just feel the sand on my feet'
     },
     {
       coords:{lat:41.8663134,lng:-87.6070143},
       iconImage:'images/museum.PNG',
-      content:'<p>Adler Planetarium</p>'
+      content:'<p>Adler Planetarium</p>',
+      message: 'This is one of my favorite museums in Chicago. I love their SkyWatch events. It is a theather where you can sit all the way back with a screen projected through its dome roofing to give guests a 180degree view of the show. It feels as if I am in a spaceship.'
     },
     {
       coords:{lat:41.9133549,lng:-87.6692455},
       iconImage:'images/bike.PNG',
-      content:'<p>The 606 - East Trailhead</p>'
+      content:'<p>The 606 - East Trailhead</p>',
+      message: 'This place is the starting point when I plan on taking what is known as Bloomingdle Trail. It used to be a railroad called the 606 but now its a trail that I recommend to be visited when in Chicago as it is close to Wicker Park if one chooses to have fun and leisure.'
     },
     {
       coords:{lat:41.9135389,lng:-87.71964},
       iconImage:'images/bike.PNG',
-      content:'<p>The 606 - West Trailhead</p>'
+      content:'<p>The 606 - West Trailhead</p>',
+      message: 'This is the west end of Bloomingdale Trail. It has a beautiful scenery as it is elevated so people can enjoy a 360 view of the neighborhood.'
     },
     {
       coords:{lat:41.8479033,lng:-88.0394595},
       iconImage:'images/food.PNG',
-      content:'<p>Blue Sushi Sake Grill</p>'
+      content:'<p>Blue Sushi Sake Grill</p>',
+      message: 'One of my favorite restaurants to visit whenever I am craving for a sushi. I recommend their Maki which is called Thriller.'
     },
     {
       coords:{lat:42.185524,lng:-87.8007389},
       iconImage:'images/food.PNG',
-      content:'<p>Sweet Home Gelato Highland Park</p>'
+      content:'<p>Sweet Home Gelato Highland Park</p>',
+      message: 'This is one of the shops in Highland Park that I would treat myself with if I am to bike total of 70miles in a nice afternoon. I surely deserve a gelato after reaching halfway of the trip.'
     }
   ];
 
