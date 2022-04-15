@@ -9,7 +9,7 @@
 }
 
 #resumeBG{
-  background-image: url('/ITMD361_Project_03/images/bgwallpaper.jpeg');
+  background-image: url('images/bgwallpaper.jpeg');
 }
 
 #navbar{
@@ -219,7 +219,7 @@ section>h3{
 }
 
 #aphBG{
-  background-image: url('/ITMD361_Project_03/images/aphbg.jpeg'); 
+  background-image: url('images/aphbg.jpeg'); 
 }
 
 #aphContent{
@@ -379,7 +379,7 @@ section>h3{
 }
 
 #pharusBG{
-  background-image: url('/ITMD361_Project_03/images/pharusbg.jpeg');
+  background-image: url('images/pharusbg.jpeg');
   font-family: 'Padauk', sans-serif;
   color: #ffffff;
 }
@@ -439,7 +439,7 @@ section>h3{
 
 #sect2{
   position: relative;
-  background-image: url('/ITMD361_Project_03/images/contentbg.jpeg');
+  background-image: url('images/contentbg.jpeg');
   background-size: cover;
   top: -20px;
   z-index: 2;
@@ -491,7 +491,7 @@ section>h3{
 
 #sect4{
   position: relative;
-  background-image: url('/ITMD361_Project_03/images/contentbg2.jpeg');
+  background-image: url('images/contentbg2.jpeg');
   background-size: cover;
   background-position: center;
   font-size: 1.5em;
@@ -562,7 +562,7 @@ section>h3{
 #sect6{
   position: relative;
   top: -240px;
-  background-image: url('/ITMD361_Project_03/images/contentbg3.jpeg');
+  background-image: url('images/contentbg3.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -625,7 +625,7 @@ section>h3{
 }
 
 #mapBG{
-  background-image: url('/ITMD361_Project_03/images/mapBG.PNG');
+  background-image: url('images/mapBG.PNG');
 }
 
 .controls {
