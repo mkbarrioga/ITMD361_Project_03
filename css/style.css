@@ -9,7 +9,7 @@
 }
 
 #resumeBG{
-  background-image: url('/ITMD361_Project_02/images/bgwallpaper.jpeg');
+  background-image: url('/images/bgwallpaper.jpeg');
 }
 
 #navbar{
@@ -219,7 +219,7 @@ section>h3{
 }
 
 #aphBG{
-  background-image: url('/ITMD361_Project_02/images/aphbg.jpeg'); 
+  background-image: url('/images/aphbg.jpeg'); 
 }
 
 #aphContent{
@@ -379,7 +379,7 @@ section>h3{
 }
 
 #pharusBG{
-  background-image: url('/ITMD361_Project_02/images/pharusbg.jpeg');
+  background-image: url('/images/pharusbg.jpeg');
   font-family: 'Padauk', sans-serif;
   color: #ffffff;
 }
@@ -439,7 +439,7 @@ section>h3{
 
 #sect2{
   position: relative;
-  background-image: url('/ITMD361_Project_02/images/contentbg.jpeg');
+  background-image: url('/images/contentbg.jpeg');
   background-size: cover;
   top: -20px;
   z-index: 2;
@@ -491,7 +491,7 @@ section>h3{
 
 #sect4{
   position: relative;
-  background-image: url('/ITMD361_Project_02/images/contentbg2.jpeg');
+  background-image: url('/images/contentbg2.jpeg');
   background-size: cover;
   background-position: center;
   font-size: 1.5em;
@@ -562,7 +562,7 @@ section>h3{
 #sect6{
   position: relative;
   top: -240px;
-  background-image: url('/ITMD361_Project_02/images/contentbg3.jpeg');
+  background-image: url('/images/contentbg3.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -624,12 +624,57 @@ section>h3{
   box-shadow: -10px 10px 20px #000000;
 }
 
+#mapBG{
+  background-image: url('/images/mapBG.PNG');
+}
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#origin-input,
+#destination-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+#origin-input:focus,
+#destination-input:focus {
+  border-color: #4d90fe;
+}
+
+#mode-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  margin-left: 12px;
+  padding: 5px 11px 0px 11px;
+}
+
+#mode-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
 #mapPage{
   width: 100vw;
   height: 90vh;
   display:block;
   position: absolute;
-  top: 15%;
+  top: 12%;
 }
 
 #map{
@@ -638,14 +683,33 @@ section>h3{
   margin: 0 5vw;
   position: relative;
   float: left;
+  border-style:dashed;
+  border-color: #ffffff;
+  border-width: 0.3em;
 }
 
 #mapContents{
   width: 30vw;
   height: 50vh;
-  margin: 0 5vw;
+  margin: 0 1vw;
   position: relative;
   float: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mapContents h1{
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  border-radius: 10px;
+}
+
+#mapContents>p{
+  background-color: rgba(162, 180, 21, 0.3);
+  text-align: center;
+  border-radius: 10px;
+  padding: 5vh 1vh;
+  color: #ffffff;
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 1288px) {
