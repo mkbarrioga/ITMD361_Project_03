@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="icon" href="images/webIcon.PNG">
-    <script src="js/index.js" defer></script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnOmvrpQP1euzMnvkPWrrdsSeZ26psMXY&callback=initMap"></script>
+    <script src="js/index.js" async></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnOmvrpQP1euzMnvkPWrrdsSeZ26psMXY&callback=initMap&libraries=places&v=weekly"></script>
     <title>My Map</title>
   </head>
-  <body>
+  <body id="mapBG" class="background">
     <header id="navbar">
       <div id="logo"><img src="images/logo.png" alt="logo" title="Marc Envisions"></div>
       <nav id="navbar-container">
@@ -25,7 +25,46 @@
       </nav>
     </header>
     <main>
-      <div id="map"></div>
+      <section>
+       <div id="mapPage">
+        <div style="display: none">
+          <input
+            id="origin-input"
+            class="controls"
+            type="text"
+            placeholder="Enter an origin location"
+          />
+    
+          <input
+            id="destination-input"
+            class="controls"
+            type="text"
+            placeholder="Enter a destination location"
+          />
+    
+          <div id="mode-selector" class="controls">
+            <input
+              type="radio"
+              name="type"
+              id="changemode-walking"
+              checked="checked"
+            />
+            <label for="changemode-walking">Walking</label>
+    
+            <input type="radio" name="type" id="changemode-transit" />
+            <label for="changemode-transit">Transit</label>
+    
+            <input type="radio" name="type" id="changemode-driving" />
+            <label for="changemode-driving">Driving</label>
+          </div>
+        </div>
+        <div id="map"></div>
+        <div id="mapContents">
+          <h1 id="markerTitle">This map highlights places I've been or have frequently visited within Chicago</h1>
+          <p id="captions">Click on the icons to see more details</p>
+        </div>  
+       </div>   
+      </section>
     </main>
     <footer id="resFoot">
       <nav>
