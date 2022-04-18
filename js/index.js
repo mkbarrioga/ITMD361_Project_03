@@ -10,11 +10,8 @@ function initMap(){
     var marker = new google.maps.Marker({
       position:attrib.coords,
       map:map
-    });
-
-    if(attrib.iconImage){
       marker.setIcon(attrib.iconImage);
-    }
+    });
 
     if(attrib.content && attrib.message){
       var infoWindow = new google.maps.InfoWindow({
@@ -40,7 +37,6 @@ function initMap(){
     animation: google.maps.Animation.BOUNCE,
     message: 'This is where I currently attend for a degree on Information Technology and Management.'
   });
-  
   addMarker({
     coords:{lat:41.9876626,lng:-87.6545129},
     iconImage:'/ITMD361_Project_03/images/beach.PNG',
