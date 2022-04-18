@@ -14,18 +14,16 @@ function initMap(){
       zIndex: attrib.order
     });
 
-    if(attrib.content || attrib.message){
-      var infoWindow = new google.maps.InfoWindow({
-        content:attrib.content
-      });
+    var infoWindow = new google.maps.InfoWindow({
+      content:attrib.content
+    });
 
-      marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-        document.getElementById('markerTitle').innerHTML = attrib.content;
-        document.getElementById('captions').innerHTML = attrib.message;
-      });
-    }
-
+    marker.addListener('click', function(){
+      infoWindow.open(map, marker);
+      document.getElementById('markerTitle').innerHTML = attrib.content;
+      document.getElementById('captions').innerHTML = attrib.message;
+    });
+    
     if(attrib.animation){
       marker.setAnimation(attrib.animation);
     }
