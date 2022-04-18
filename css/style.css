@@ -712,7 +712,7 @@ section>h3{
   font-size: 1.5em;
 }
 
-@media screen and (max-width: 1288px) {
+@media (min-width: 431px) and (max-width: 1288px) {
   #sec1{
     font-size: 120%;
     line-height: 3vh;
