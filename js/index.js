@@ -28,6 +28,7 @@ function initMap(){
     if(attrib.animation){
       marker.setAnimation(attrib.animation);
     }
+    marker.setMap(map);
   }
 
   var markers = [
@@ -78,7 +79,6 @@ function initMap(){
 
   for(var i=0; i<markers.length; i++){
     addMarker(markers[i]);
-    marker.setMap(map);
   }
 
   new AutocompleteDirectionsHandler(map);
