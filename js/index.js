@@ -59,7 +59,7 @@ function initMap(){
     },
     {
       coords:{lat:41.9135389,lng:-87.71964},
-      iconImage:'images/bike.PNG',
+      iconImage:'images/bike2.PNG',
       content:'<p>The 606 - West Trailhead</p>',
       message:'This is the west end of Bloomingdale Trail. It has a beautiful scenery as it is elevated so people can enjoy a 360 view of the neighborhood.'
     },
