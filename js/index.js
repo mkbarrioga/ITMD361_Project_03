@@ -9,7 +9,7 @@ function initMap(){
   function addMarker(attrib){
     var marker = new google.maps.Marker({
       position:attrib.coords,
-      map:map
+      map:map,
       marker.setIcon(attrib.iconImage);
     });
 
