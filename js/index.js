@@ -78,6 +78,7 @@ function initMap(){
 
   for(var i=0; i<markers.length; i++){
     addMarker(markers[i]);
+    marker.setMap(map);
   }
 
   new AutocompleteDirectionsHandler(map);
